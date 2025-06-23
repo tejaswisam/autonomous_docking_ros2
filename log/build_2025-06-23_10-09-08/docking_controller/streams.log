@@ -1,0 +1,26 @@
+[1.173s] Invoking command in '/home/tejaswi/autonomous_docking_ros2/build/docking_controller': PYTHONPATH=/home/tejaswi/autonomous_docking_ros2/build/docking_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tejaswi/autonomous_docking_ros2/build/docking_controller/build --no-deps symlink_data
+[1.564s] running develop
+[1.564s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.564s]   warnings.warn(
+[1.862s] running egg_info
+[1.862s] creating docking_controller.egg-info
+[1.862s] writing docking_controller.egg-info/PKG-INFO
+[1.863s] writing dependency_links to docking_controller.egg-info/dependency_links.txt
+[1.863s] writing entry points to docking_controller.egg-info/entry_points.txt
+[1.863s] writing requirements to docking_controller.egg-info/requires.txt
+[1.864s] writing top-level names to docking_controller.egg-info/top_level.txt
+[1.864s] writing manifest file 'docking_controller.egg-info/SOURCES.txt'
+[1.868s] reading manifest file 'docking_controller.egg-info/SOURCES.txt'
+[1.868s] writing manifest file 'docking_controller.egg-info/SOURCES.txt'
+[1.971s] running build_ext
+[1.972s] Creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages/docking-controller.egg-link (link to .)
+[1.973s] Installing controller_node script to /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/docking_controller
+[1.974s] 
+[1.974s] Installed /home/tejaswi/autonomous_docking_ros2/build/docking_controller
+[1.974s] running symlink_data
+[1.974s] creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index
+[1.974s] creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index/resource_index
+[1.974s] creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index/resource_index/packages
+[1.974s] symbolically linking /home/tejaswi/autonomous_docking_ros2/build/docking_controller/resource/docking_controller -> /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index/resource_index/packages
+[1.974s] symbolically linking /home/tejaswi/autonomous_docking_ros2/build/docking_controller/package.xml -> /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/docking_controller
+[2.037s] Invoked command in '/home/tejaswi/autonomous_docking_ros2/build/docking_controller' returned '0': PYTHONPATH=/home/tejaswi/autonomous_docking_ros2/build/docking_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tejaswi/autonomous_docking_ros2/build/docking_controller/build --no-deps symlink_data

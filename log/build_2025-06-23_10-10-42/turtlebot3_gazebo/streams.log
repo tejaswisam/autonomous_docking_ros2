@@ -1,0 +1,178 @@
+[0.525s] Invoking command in '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo -- -j8 -l8
+[0.632s] [  8%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[0.633s] [ 16%] [32mBuilding CXX object CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o[0m
+[0.633s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o[0m
+[0.634s] [ 33%] [32mBuilding CXX object CMakeFiles/traffic_bar_plugin.dir/src/traffic_bar_plugin.cpp.o[0m
+[0.635s] [ 41%] [32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o[0m
+[0.638s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o[0m
+[15.931s] [ 58%] [32m[1mLinking CXX shared library libtraffic_bar_plugin.so[0m
+[16.348s] [ 58%] Built target traffic_bar_plugin
+[16.914s] [ 66%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[17.543s] [ 75%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[17.710s] [ 83%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[17.810s] [ 83%] Built target obstacle2
+[17.992s] [ 83%] Built target obstacle1
+[18.007s] [ 83%] Built target turtlebot3_drive
+[18.587s] [ 91%] [32m[1mLinking CXX shared library libtraffic_light_plugin.so[0m
+[18.853s] [ 91%] Built target traffic_light_plugin
+[18.946s] [100%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[19.124s] [100%] Built target obstacles
+[19.189s] Invoked command in '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo -- -j8 -l8
+[19.255s] Invoking command in '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo
+[19.259s] -- Install configuration: ""
+[19.260s] -- Execute custom install script
+[19.260s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[19.269s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[19.275s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_robot.launch.py
+[19.282s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_spawn_turtlebot3.launch.py
+[19.289s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[19.296s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[19.303s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace_2020.launch.py
+[19.309s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[19.315s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[19.322s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[19.328s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[19.335s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[19.341s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[19.358s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/checker.png
+[19.365s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/scripts/checker.material
+[19.372s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/textures/checker.png
+[19.378s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.config
+[19.384s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.sdf
+[19.390s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/scripts/course.material
+[19.397s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/textures/course.png
+[19.404s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.config
+[19.410s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.sdf
+[19.417s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/scripts/traffic_bar.material
+[19.423s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/textures/traffic_bar.png
+[19.430s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.config
+[19.436s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.sdf
+[19.443s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/scripts/traffic_construction.material
+[19.449s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/textures/traffic_construction.png
+[19.456s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.config
+[19.463s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.sdf
+[19.470s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts/traffic_intersection.material
+[19.476s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/textures/traffic_intersection.png
+[19.483s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.config
+[19.490s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.sdf
+[19.496s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/scripts/traffic_is_left.material
+[19.503s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/textures/traffic_left.png
+[19.510s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.config
+[19.516s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.sdf
+[19.523s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/scripts/traffic_light.material
+[19.529s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light.png
+[19.536s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_green.png
+[19.542s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_red.png
+[19.548s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_yellow.png
+[19.555s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.config
+[19.561s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.sdf
+[19.569s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts/traffic_noentry.material
+[19.575s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/textures/traffic_noentry.png
+[19.582s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.config
+[19.589s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.sdf
+[19.595s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/scripts/traffic_parking.material
+[19.601s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/textures/traffic_parking.png
+[19.608s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.config
+[19.614s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.sdf
+[19.620s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts/traffic_pl_left.material
+[19.627s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures/traffic_pl_left.png
+[19.633s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.config
+[19.640s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.sdf
+[19.646s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/scripts/traffic_right.material
+[19.653s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/textures/traffic_right.png
+[19.659s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.config
+[19.667s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.sdf
+[19.673s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/scripts/traffic_stop.material
+[19.680s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/textures/traffic_stop.png
+[19.686s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.config
+[19.693s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.sdf
+[19.699s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts/tunnel.material
+[19.706s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures/tunnel.png
+[19.713s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.config
+[19.720s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.sdf
+[19.727s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[19.734s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[19.740s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[19.748s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model-1_4.sdf
+[19.755s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.config
+[19.763s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.sdf
+[19.770s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/burger_base.stl
+[19.777s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_base.stl
+[19.784s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl
+[19.791s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[19.798s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[19.805s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[19.811s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.dae
+[19.818s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.jpg
+[19.825s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/lds.stl
+[19.831s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.dae
+[19.838s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.jpg
+[19.844s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[19.850s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[19.856s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[19.863s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/left_tire.stl
+[19.870s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/right_tire.stl
+[19.876s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[19.882s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[19.889s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[19.895s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[19.901s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[19.907s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[19.913s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[19.919s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[19.926s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[19.933s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[19.939s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[19.946s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[19.952s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[19.959s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[19.966s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[19.972s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[19.978s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[19.985s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[19.991s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[19.998s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[20.004s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[20.011s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[20.017s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[20.023s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[20.030s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[20.037s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[20.043s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[20.050s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[20.056s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[20.064s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger_cam.urdf
+[20.070s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[20.076s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[20.083s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[20.089s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autorace_2020.world
+[20.095s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[20.101s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[20.108s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[20.114s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[20.121s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[20.127s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[20.134s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle1.hpp
+[20.140s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle2.hpp
+[20.147s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacles.hpp
+[20.153s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_bar_plugin.hpp
+[20.160s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_light_plugin.hpp
+[20.167s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[20.174s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[20.180s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[20.187s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[20.193s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[20.200s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[20.206s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[20.212s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[20.219s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[20.225s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[20.232s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[20.238s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[20.245s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[20.251s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.257s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.265s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[20.272s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[20.278s] -- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[20.296s] Invoked command in '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo

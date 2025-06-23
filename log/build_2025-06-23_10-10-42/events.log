@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (aruco_detector) JobQueued: {'identifier': 'aruco_detector', 'dependencies': OrderedDict()}
+[0.000301] (docking_controller) JobQueued: {'identifier': 'docking_controller', 'dependencies': OrderedDict()}
+[0.000318] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000812] (aruco_detector) JobStarted: {'identifier': 'aruco_detector'}
+[0.012310] (docking_controller) JobStarted: {'identifier': 'docking_controller'}
+[0.017341] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.099920] (-) TimerEvent: {}
+[0.200598] (-) TimerEvent: {}
+[0.300988] (-) TimerEvent: {}
+[0.401328] (-) TimerEvent: {}
+[0.501665] (-) TimerEvent: {}
+[0.540393] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.541427] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.542162] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/tejaswi/crazysim2/crazyflie-simulation/simulator_files/gazebo/'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejaswi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces/lib:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejaswi'), ('OLDPWD', '/home/tejaswi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1884'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3220'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejaswi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejaswi'), ('JOURNAL_STREAM', '8:20155'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejaswi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tejaswi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejaswi-inspiron:@/tmp/.ICE-unix/1815,unix/tejaswi-inspiron:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', 'd68deb5cb0c1438586325ac18d6964f5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.39SB82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie_py:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b6476398-9678-4144-beda-61793c973fef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejaswi/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazylidar/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/crazysim/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_py:/opt/ros/humble')]), 'shell': False}
+[0.602260] (-) TimerEvent: {}
+[0.650035] (turtlebot3_gazebo) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[0.650358] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o\x1b[0m\n'}
+[0.650456] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o\x1b[0m\n'}
+[0.652028] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/traffic_bar_plugin.dir/src/traffic_bar_plugin.cpp.o\x1b[0m\n'}
+[0.652724] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o\x1b[0m\n'}
+[0.655840] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o\x1b[0m\n'}
+[0.702667] (-) TimerEvent: {}
+[0.805234] (-) TimerEvent: {}
+[0.905637] (-) TimerEvent: {}
+[1.005986] (-) TimerEvent: {}
+[1.109185] (-) TimerEvent: {}
+[1.210533] (-) TimerEvent: {}
+[1.218542] (docking_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tejaswi/autonomous_docking_ros2/build/docking_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/tejaswi/autonomous_docking_ros2/build/docking_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/tejaswi/crazysim2/crazyflie-simulation/simulator_files/gazebo/', 'LANGUAGE': 'en_IN:en', 'USER': 'tejaswi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces/lib:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tejaswi', 'OLDPWD': '/home/tejaswi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1546', 'SYSTEMD_EXEC_PID': '1884', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3220', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tejaswi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tejaswi', 'JOURNAL_STREAM': '8:20155', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tejaswi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tejaswi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tejaswi-inspiron:@/tmp/.ICE-unix/1815,unix/tejaswi-inspiron:/tmp/.ICE-unix/1815', 'INVOCATION_ID': 'd68deb5cb0c1438586325ac18d6964f5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.39SB82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie_py:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b6476398-9678-4144-beda-61793c973fef', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tejaswi/autonomous_docking_ros2/build/docking_controller', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tejaswi/autonomous_docking_ros2/build/docking_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazylidar/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/crazysim/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces'}, 'shell': False}
+[1.225007] (aruco_detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector/build', '--no-deps', 'symlink_data'], 'cwd': '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/tejaswi/crazysim2/crazyflie-simulation/simulator_files/gazebo/', 'LANGUAGE': 'en_IN:en', 'USER': 'tejaswi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces/lib:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tejaswi', 'OLDPWD': '/home/tejaswi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1546', 'SYSTEMD_EXEC_PID': '1884', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3220', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tejaswi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tejaswi', 'JOURNAL_STREAM': '8:20155', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tejaswi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tejaswi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tejaswi-inspiron:@/tmp/.ICE-unix/1815,unix/tejaswi-inspiron:/tmp/.ICE-unix/1815', 'INVOCATION_ID': 'd68deb5cb0c1438586325ac18d6964f5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.39SB82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie_py:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b6476398-9678-4144-beda-61793c973fef', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazylidar/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/crazysim/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces'}, 'shell': False}
+[1.311102] (-) TimerEvent: {}
+[1.412022] (-) TimerEvent: {}
+[1.516211] (-) TimerEvent: {}
+[1.616580] (-) TimerEvent: {}
+[1.638274] (docking_controller) StdoutLine: {'line': b'running develop\n'}
+[1.642347] (docking_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.642752] (docking_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.668027] (aruco_detector) StdoutLine: {'line': b'running develop\n'}
+[1.668435] (aruco_detector) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.668552] (aruco_detector) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.716744] (-) TimerEvent: {}
+[1.819215] (-) TimerEvent: {}
+[1.923255] (-) TimerEvent: {}
+[1.991242] (aruco_detector) StdoutLine: {'line': b'running egg_info\n'}
+[1.991719] (aruco_detector) StdoutLine: {'line': b'writing aruco_detector.egg-info/PKG-INFO\n'}
+[1.992589] (aruco_detector) StdoutLine: {'line': b'writing dependency_links to aruco_detector.egg-info/dependency_links.txt\n'}
+[1.993504] (aruco_detector) StdoutLine: {'line': b'writing entry points to aruco_detector.egg-info/entry_points.txt\n'}
+[1.993851] (aruco_detector) StdoutLine: {'line': b'writing requirements to aruco_detector.egg-info/requires.txt\n'}
+[1.994191] (aruco_detector) StdoutLine: {'line': b'writing top-level names to aruco_detector.egg-info/top_level.txt\n'}
+[1.998968] (aruco_detector) StdoutLine: {'line': b"reading manifest file 'aruco_detector.egg-info/SOURCES.txt'\n"}
+[2.003226] (aruco_detector) StdoutLine: {'line': b"writing manifest file 'aruco_detector.egg-info/SOURCES.txt'\n"}
+[2.023388] (-) TimerEvent: {}
+[2.057270] (docking_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.057753] (docking_controller) StdoutLine: {'line': b'writing docking_controller.egg-info/PKG-INFO\n'}
+[2.058185] (docking_controller) StdoutLine: {'line': b'writing dependency_links to docking_controller.egg-info/dependency_links.txt\n'}
+[2.058539] (docking_controller) StdoutLine: {'line': b'writing entry points to docking_controller.egg-info/entry_points.txt\n'}
+[2.058833] (docking_controller) StdoutLine: {'line': b'writing requirements to docking_controller.egg-info/requires.txt\n'}
+[2.059025] (docking_controller) StdoutLine: {'line': b'writing top-level names to docking_controller.egg-info/top_level.txt\n'}
+[2.062243] (docking_controller) StdoutLine: {'line': b"reading manifest file 'docking_controller.egg-info/SOURCES.txt'\n"}
+[2.063368] (docking_controller) StdoutLine: {'line': b"writing manifest file 'docking_controller.egg-info/SOURCES.txt'\n"}
+[2.081211] (aruco_detector) StdoutLine: {'line': b'running build_ext\n'}
+[2.081481] (aruco_detector) StdoutLine: {'line': b'Creating /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/python3.10/site-packages/aruco-detector.egg-link (link to .)\n'}
+[2.083613] (aruco_detector) StdoutLine: {'line': b'Installing aruco_node script to /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/aruco_detector\n'}
+[2.083848] (aruco_detector) StdoutLine: {'line': b'\n'}
+[2.083947] (aruco_detector) StdoutLine: {'line': b'Installed /home/tejaswi/autonomous_docking_ros2/build/aruco_detector\n'}
+[2.084035] (aruco_detector) StdoutLine: {'line': b'running symlink_data\n'}
+[2.123526] (-) TimerEvent: {}
+[2.127266] (docking_controller) StdoutLine: {'line': b'running build_ext\n'}
+[2.127600] (docking_controller) StdoutLine: {'line': b'Creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages/docking-controller.egg-link (link to .)\n'}
+[2.128749] (docking_controller) StdoutLine: {'line': b'Installing controller_node script to /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/docking_controller\n'}
+[2.129161] (docking_controller) StdoutLine: {'line': b'\n'}
+[2.129346] (docking_controller) StdoutLine: {'line': b'Installed /home/tejaswi/autonomous_docking_ros2/build/docking_controller\n'}
+[2.129432] (docking_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[2.166046] (aruco_detector) CommandEnded: {'returncode': 0}
+[2.223668] (-) TimerEvent: {}
+[2.228998] (aruco_detector) JobEnded: {'identifier': 'aruco_detector', 'rc': 0}
+[2.230239] (docking_controller) CommandEnded: {'returncode': 0}
+[2.241704] (docking_controller) JobEnded: {'identifier': 'docking_controller', 'rc': 0}
+[2.323861] (-) TimerEvent: {}
+[2.428294] (-) TimerEvent: {}
+[2.528843] (-) TimerEvent: {}
+[2.629443] (-) TimerEvent: {}
+[2.729931] (-) TimerEvent: {}
+[2.830417] (-) TimerEvent: {}
+[2.930955] (-) TimerEvent: {}
+[3.031484] (-) TimerEvent: {}
+[3.131995] (-) TimerEvent: {}
+[3.232566] (-) TimerEvent: {}
+[3.334334] (-) TimerEvent: {}
+[3.435260] (-) TimerEvent: {}
+[3.535873] (-) TimerEvent: {}
+[3.636366] (-) TimerEvent: {}
+[3.736836] (-) TimerEvent: {}
+[3.837398] (-) TimerEvent: {}
+[3.939302] (-) TimerEvent: {}
+[4.039841] (-) TimerEvent: {}
+[4.140881] (-) TimerEvent: {}
+[4.241525] (-) TimerEvent: {}
+[4.342289] (-) TimerEvent: {}
+[4.444956] (-) TimerEvent: {}
+[4.547255] (-) TimerEvent: {}
+[4.648457] (-) TimerEvent: {}
+[4.749030] (-) TimerEvent: {}
+[4.851642] (-) TimerEvent: {}
+[4.952214] (-) TimerEvent: {}
+[5.053777] (-) TimerEvent: {}
+[5.161325] (-) TimerEvent: {}
+[5.261961] (-) TimerEvent: {}
+[5.362442] (-) TimerEvent: {}
+[5.462904] (-) TimerEvent: {}
+[5.563351] (-) TimerEvent: {}
+[5.663815] (-) TimerEvent: {}
+[5.766349] (-) TimerEvent: {}
+[5.867380] (-) TimerEvent: {}
+[5.971931] (-) TimerEvent: {}
+[6.072508] (-) TimerEvent: {}
+[6.172917] (-) TimerEvent: {}
+[6.273254] (-) TimerEvent: {}
+[6.373778] (-) TimerEvent: {}
+[6.476238] (-) TimerEvent: {}
+[6.576666] (-) TimerEvent: {}
+[6.677161] (-) TimerEvent: {}
+[6.777641] (-) TimerEvent: {}
+[6.878047] (-) TimerEvent: {}
+[6.978458] (-) TimerEvent: {}
+[7.078845] (-) TimerEvent: {}
+[7.179248] (-) TimerEvent: {}
+[7.279679] (-) TimerEvent: {}
+[7.380122] (-) TimerEvent: {}
+[7.480564] (-) TimerEvent: {}
+[7.581147] (-) TimerEvent: {}
+[7.681616] (-) TimerEvent: {}
+[7.782361] (-) TimerEvent: {}
+[7.883261] (-) TimerEvent: {}
+[7.983721] (-) TimerEvent: {}
+[8.084197] (-) TimerEvent: {}
+[8.184672] (-) TimerEvent: {}
+[8.285173] (-) TimerEvent: {}
+[8.385744] (-) TimerEvent: {}
+[8.486328] (-) TimerEvent: {}
+[8.586776] (-) TimerEvent: {}
+[8.687217] (-) TimerEvent: {}
+[8.787749] (-) TimerEvent: {}
+[8.888324] (-) TimerEvent: {}
+[8.990881] (-) TimerEvent: {}
+[9.091336] (-) TimerEvent: {}
+[9.191747] (-) TimerEvent: {}
+[9.292570] (-) TimerEvent: {}
+[9.393319] (-) TimerEvent: {}
+[9.494033] (-) TimerEvent: {}
+[9.594701] (-) TimerEvent: {}
+[9.695226] (-) TimerEvent: {}
+[9.795769] (-) TimerEvent: {}
+[9.896475] (-) TimerEvent: {}
+[9.996980] (-) TimerEvent: {}
+[10.097595] (-) TimerEvent: {}
+[10.198233] (-) TimerEvent: {}
+[10.298746] (-) TimerEvent: {}
+[10.399838] (-) TimerEvent: {}
+[10.500391] (-) TimerEvent: {}
+[10.600855] (-) TimerEvent: {}
+[10.701410] (-) TimerEvent: {}
+[10.802084] (-) TimerEvent: {}
+[10.902944] (-) TimerEvent: {}
+[11.003758] (-) TimerEvent: {}
+[11.104602] (-) TimerEvent: {}
+[11.205088] (-) TimerEvent: {}
+[11.305551] (-) TimerEvent: {}
+[11.406285] (-) TimerEvent: {}
+[11.506962] (-) TimerEvent: {}
+[11.607422] (-) TimerEvent: {}
+[11.707792] (-) TimerEvent: {}
+[11.808198] (-) TimerEvent: {}
+[11.908655] (-) TimerEvent: {}
+[12.009180] (-) TimerEvent: {}
+[12.109822] (-) TimerEvent: {}
+[12.210388] (-) TimerEvent: {}
+[12.311112] (-) TimerEvent: {}
+[12.411644] (-) TimerEvent: {}
+[12.512071] (-) TimerEvent: {}
+[12.612860] (-) TimerEvent: {}
+[12.713681] (-) TimerEvent: {}
+[12.814164] (-) TimerEvent: {}
+[12.914623] (-) TimerEvent: {}
+[13.015059] (-) TimerEvent: {}
+[13.115489] (-) TimerEvent: {}
+[13.219237] (-) TimerEvent: {}
+[13.319706] (-) TimerEvent: {}
+[13.420259] (-) TimerEvent: {}
+[13.520881] (-) TimerEvent: {}
+[13.622308] (-) TimerEvent: {}
+[13.725259] (-) TimerEvent: {}
+[13.825660] (-) TimerEvent: {}
+[13.926051] (-) TimerEvent: {}
+[14.026533] (-) TimerEvent: {}
+[14.126987] (-) TimerEvent: {}
+[14.227381] (-) TimerEvent: {}
+[14.328268] (-) TimerEvent: {}
+[14.428716] (-) TimerEvent: {}
+[14.529198] (-) TimerEvent: {}
+[14.629604] (-) TimerEvent: {}
+[14.729962] (-) TimerEvent: {}
+[14.830365] (-) TimerEvent: {}
+[14.930763] (-) TimerEvent: {}
+[15.031161] (-) TimerEvent: {}
+[15.131496] (-) TimerEvent: {}
+[15.231815] (-) TimerEvent: {}
+[15.332257] (-) TimerEvent: {}
+[15.432677] (-) TimerEvent: {}
+[15.533076] (-) TimerEvent: {}
+[15.634595] (-) TimerEvent: {}
+[15.734985] (-) TimerEvent: {}
+[15.835471] (-) TimerEvent: {}
+[15.935896] (-) TimerEvent: {}
+[15.941171] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_bar_plugin.so\x1b[0m\n'}
+[16.036373] (-) TimerEvent: {}
+[16.136961] (-) TimerEvent: {}
+[16.237555] (-) TimerEvent: {}
+[16.338048] (-) TimerEvent: {}
+[16.365667] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 58%] Built target traffic_bar_plugin\n'}
+[16.438204] (-) TimerEvent: {}
+[16.538590] (-) TimerEvent: {}
+[16.638977] (-) TimerEvent: {}
+[16.739413] (-) TimerEvent: {}
+[16.839799] (-) TimerEvent: {}
+[16.931445] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[16.939980] (-) TimerEvent: {}
+[17.040504] (-) TimerEvent: {}
+[17.141073] (-) TimerEvent: {}
+[17.241525] (-) TimerEvent: {}
+[17.342019] (-) TimerEvent: {}
+[17.442434] (-) TimerEvent: {}
+[17.543019] (-) TimerEvent: {}
+[17.560779] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[17.643242] (-) TimerEvent: {}
+[17.727209] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[17.743374] (-) TimerEvent: {}
+[17.827640] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 83%] Built target obstacle2\n'}
+[17.843519] (-) TimerEvent: {}
+[17.944092] (-) TimerEvent: {}
+[18.009634] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 83%] Built target obstacle1\n'}
+[18.024858] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 83%] Built target turtlebot3_drive\n'}
+[18.044268] (-) TimerEvent: {}
+[18.144798] (-) TimerEvent: {}
+[18.245318] (-) TimerEvent: {}
+[18.345847] (-) TimerEvent: {}
+[18.446372] (-) TimerEvent: {}
+[18.546674] (-) TimerEvent: {}
+[18.604160] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_light_plugin.so\x1b[0m\n'}
+[18.646901] (-) TimerEvent: {}
+[18.747300] (-) TimerEvent: {}
+[18.847611] (-) TimerEvent: {}
+[18.870379] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 91%] Built target traffic_light_plugin\n'}
+[18.947917] (-) TimerEvent: {}
+[18.963964] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[19.048074] (-) TimerEvent: {}
+[19.141506] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[19.148186] (-) TimerEvent: {}
+[19.198048] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[19.248357] (-) TimerEvent: {}
+[19.251242] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[19.271806] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo'], 'cwd': '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/tejaswi/crazysim2/crazyflie-simulation/simulator_files/gazebo/'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejaswi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces/lib:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejaswi'), ('OLDPWD', '/home/tejaswi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1884'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3220'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejaswi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejaswi'), ('JOURNAL_STREAM', '8:20155'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejaswi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tejaswi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejaswi-inspiron:@/tmp/.ICE-unix/1815,unix/tejaswi-inspiron:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', 'd68deb5cb0c1438586325ac18d6964f5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.39SB82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie_py:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b6476398-9678-4144-beda-61793c973fef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejaswi/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazylidar/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/crazysim/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_py:/opt/ros/humble')]), 'shell': False}
+[19.276598] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.277492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.277851] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[19.286385] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[19.293143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_robot.launch.py\n'}
+[19.299561] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_spawn_turtlebot3.launch.py\n'}
+[19.306702] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[19.313375] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[19.320350] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace_2020.launch.py\n'}
+[19.326576] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[19.333011] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[19.339460] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[19.345745] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[19.348328] (-) TimerEvent: {}
+[19.352360] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[19.358914] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[19.375862] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/checker.png\n'}
+[19.383072] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/scripts/checker.material\n'}
+[19.389492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/textures/checker.png\n'}
+[19.395709] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.config\n'}
+[19.401969] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.sdf\n'}
+[19.408171] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/scripts/course.material\n'}
+[19.414802] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/textures/course.png\n'}
+[19.421381] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.config\n'}
+[19.427936] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.sdf\n'}
+[19.434537] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/scripts/traffic_bar.material\n'}
+[19.441023] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/textures/traffic_bar.png\n'}
+[19.447562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.config\n'}
+[19.448396] (-) TimerEvent: {}
+[19.454104] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.sdf\n'}
+[19.460785] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/scripts/traffic_construction.material\n'}
+[19.467199] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/textures/traffic_construction.png\n'}
+[19.473441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.config\n'}
+[19.480748] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.sdf\n'}
+[19.487654] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts/traffic_intersection.material\n'}
+[19.494172] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/textures/traffic_intersection.png\n'}
+[19.500646] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.config\n'}
+[19.507295] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.sdf\n'}
+[19.514090] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/scripts/traffic_is_left.material\n'}
+[19.520552] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/textures/traffic_left.png\n'}
+[19.527398] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.config\n'}
+[19.533694] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.sdf\n'}
+[19.540505] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/scripts/traffic_light.material\n'}
+[19.546692] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light.png\n'}
+[19.548476] (-) TimerEvent: {}
+[19.553446] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_green.png\n'}
+[19.559819] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_red.png\n'}
+[19.566054] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_yellow.png\n'}
+[19.572468] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.config\n'}
+[19.579161] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.sdf\n'}
+[19.586402] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts/traffic_noentry.material\n'}
+[19.593203] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/textures/traffic_noentry.png\n'}
+[19.599684] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.config\n'}
+[19.606350] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.sdf\n'}
+[19.612651] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/scripts/traffic_parking.material\n'}
+[19.618821] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/textures/traffic_parking.png\n'}
+[19.625258] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.config\n'}
+[19.631604] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.sdf\n'}
+[19.637793] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts/traffic_pl_left.material\n'}
+[19.644402] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures/traffic_pl_left.png\n'}
+[19.648585] (-) TimerEvent: {}
+[19.650841] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.config\n'}
+[19.657408] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.sdf\n'}
+[19.663834] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/scripts/traffic_right.material\n'}
+[19.670438] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/textures/traffic_right.png\n'}
+[19.676954] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.config\n'}
+[19.684316] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.sdf\n'}
+[19.690738] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/scripts/traffic_stop.material\n'}
+[19.697413] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/textures/traffic_stop.png\n'}
+[19.703919] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.config\n'}
+[19.710417] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.sdf\n'}
+[19.717167] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts/tunnel.material\n'}
+[19.723916] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures/tunnel.png\n'}
+[19.730664] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.config\n'}
+[19.737657] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.sdf\n'}
+[19.744603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[19.748650] (-) TimerEvent: {}
+[19.751327] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[19.758159] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[19.765820] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model-1_4.sdf\n'}
+[19.772861] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.config\n'}
+[19.780478] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.sdf\n'}
+[19.787732] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/burger_base.stl\n'}
+[19.794607] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_base.stl\n'}
+[19.801921] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl\n'}
+[19.808884] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[19.815698] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[19.822286] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[19.828829] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.dae\n'}
+[19.835812] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.jpg\n'}
+[19.842685] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/lds.stl\n'}
+[19.848865] (-) TimerEvent: {}
+[19.849078] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.dae\n'}
+[19.855259] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.jpg\n'}
+[19.861376] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[19.867705] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[19.873816] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[19.881081] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/left_tire.stl\n'}
+[19.887606] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/right_tire.stl\n'}
+[19.893684] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[19.899823] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[19.906475] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[19.912808] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[19.918883] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[19.924792] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[19.930805] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[19.937181] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[19.943715] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[19.949048] (-) TimerEvent: {}
+[19.950382] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[19.956865] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[19.963441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[19.969986] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[19.976835] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[19.983845] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[19.990188] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[19.996233] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[20.002272] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[20.008775] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[20.015362] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[20.021701] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[20.028229] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[20.034589] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[20.041163] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[20.047535] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[20.049221] (-) TimerEvent: {}
+[20.054320] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[20.061191] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[20.067810] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[20.074106] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[20.081497] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger_cam.urdf\n'}
+[20.088056] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[20.094212] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[20.100661] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[20.106798] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autorace_2020.world\n'}
+[20.112788] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[20.118905] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[20.125491] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[20.131813] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[20.138518] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[20.144661] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[20.149323] (-) TimerEvent: {}
+[20.151600] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle1.hpp\n'}
+[20.157905] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle2.hpp\n'}
+[20.164364] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacles.hpp\n'}
+[20.170950] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_bar_plugin.hpp\n'}
+[20.177498] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_light_plugin.hpp\n'}
+[20.184739] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[20.191632] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[20.197878] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[20.204479] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[20.211154] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[20.217277] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[20.223908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[20.230222] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[20.236864] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[20.243211] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[20.249690] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[20.249824] (-) TimerEvent: {}
+[20.255941] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[20.262591] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[20.269045] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.275024] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.282979] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[20.289733] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[20.295967] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[20.304687] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[20.349995] (-) TimerEvent: {}
+[20.376696] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[20.380215] (-) EventReactorShutdown: {}

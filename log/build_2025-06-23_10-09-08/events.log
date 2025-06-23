@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.000859] (aruco_detector) JobQueued: {'identifier': 'aruco_detector', 'dependencies': OrderedDict()}
+[0.000968] (docking_controller) JobQueued: {'identifier': 'docking_controller', 'dependencies': OrderedDict()}
+[0.000990] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.001007] (aruco_detector) JobStarted: {'identifier': 'aruco_detector'}
+[0.010113] (docking_controller) JobStarted: {'identifier': 'docking_controller'}
+[0.016171] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.099881] (-) TimerEvent: {}
+[0.200423] (-) TimerEvent: {}
+[0.300921] (-) TimerEvent: {}
+[0.401481] (-) TimerEvent: {}
+[0.502061] (-) TimerEvent: {}
+[0.583754] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.584115] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/tejaswi/autonomous_docking_ros2/src/turtlebot3_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo'], 'cwd': '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/tejaswi/crazysim2/crazyflie-simulation/simulator_files/gazebo/'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejaswi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces/lib:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejaswi'), ('OLDPWD', '/home/tejaswi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1533'), ('SYSTEMD_EXEC_PID', '1827'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9845'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejaswi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejaswi'), ('JOURNAL_STREAM', '8:23626'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejaswi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tejaswi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejaswi-inspiron:@/tmp/.ICE-unix/1783,unix/tejaswi-inspiron:/tmp/.ICE-unix/1783'), ('INVOCATION_ID', 'dcf4ee8a80684849b87df6c393af7a39'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5Z9872'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie_py:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:499e7f72-8d42-4dc3-8365-9f0d43eb9ede'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejaswi/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazylidar/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/crazysim/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_py:/opt/ros/humble')]), 'shell': False}
+[0.602160] (-) TimerEvent: {}
+[0.652282] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.702299] (-) TimerEvent: {}
+[0.719048] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.728377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802459] (-) TimerEvent: {}
+[0.811042] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.827291] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.827608] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.828276] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.834070] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902557] (-) TimerEvent: {}
+[0.927465] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.939772] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.940156] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.940826] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.944736] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002675] (-) TimerEvent: {}
+[1.103074] (-) TimerEvent: {}
+[1.145827] (aruco_detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector/build', '--no-deps', 'symlink_data'], 'cwd': '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/tejaswi/crazysim2/crazyflie-simulation/simulator_files/gazebo/', 'LANGUAGE': 'en_IN:en', 'USER': 'tejaswi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces/lib:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tejaswi', 'OLDPWD': '/home/tejaswi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1533', 'SYSTEMD_EXEC_PID': '1827', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9845', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tejaswi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tejaswi', 'JOURNAL_STREAM': '8:23626', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tejaswi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tejaswi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tejaswi-inspiron:@/tmp/.ICE-unix/1783,unix/tejaswi-inspiron:/tmp/.ICE-unix/1783', 'INVOCATION_ID': 'dcf4ee8a80684849b87df6c393af7a39', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5Z9872', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie_py:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:499e7f72-8d42-4dc3-8365-9f0d43eb9ede', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazylidar/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/crazysim/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces'}, 'shell': False}
+[1.180733] (docking_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tejaswi/autonomous_docking_ros2/build/docking_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/tejaswi/autonomous_docking_ros2/build/docking_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/tejaswi/crazysim2/crazyflie-simulation/simulator_files/gazebo/', 'LANGUAGE': 'en_IN:en', 'USER': 'tejaswi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces/lib:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tejaswi', 'OLDPWD': '/home/tejaswi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1533', 'SYSTEMD_EXEC_PID': '1827', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9845', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tejaswi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tejaswi', 'JOURNAL_STREAM': '8:23626', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tejaswi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tejaswi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tejaswi-inspiron:@/tmp/.ICE-unix/1783,unix/tejaswi-inspiron:/tmp/.ICE-unix/1783', 'INVOCATION_ID': 'dcf4ee8a80684849b87df6c393af7a39', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5Z9872', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie_py:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:499e7f72-8d42-4dc3-8365-9f0d43eb9ede', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tejaswi/autonomous_docking_ros2/build/docking_controller', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tejaswi/autonomous_docking_ros2/build/docking_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazylidar/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/crazysim/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces'}, 'shell': False}
+[1.192953] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.203194] (-) TimerEvent: {}
+[1.295900] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.303469] (-) TimerEvent: {}
+[1.359657] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.365130] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.379643] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.403562] (-) TimerEvent: {}
+[1.503952] (-) TimerEvent: {}
+[1.508830] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.550495] (aruco_detector) StdoutLine: {'line': b'running develop\n'}
+[1.550904] (aruco_detector) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.551002] (aruco_detector) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.569212] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.573564] (docking_controller) StdoutLine: {'line': b'running develop\n'}
+[1.574001] (docking_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.574087] (docking_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.597705] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.604048] (-) TimerEvent: {}
+[1.704419] (-) TimerEvent: {}
+[1.804831] (-) TimerEvent: {}
+[1.818609] (aruco_detector) StdoutLine: {'line': b'running egg_info\n'}
+[1.818886] (aruco_detector) StdoutLine: {'line': b'creating aruco_detector.egg-info\n'}
+[1.818994] (aruco_detector) StdoutLine: {'line': b'writing aruco_detector.egg-info/PKG-INFO\n'}
+[1.819094] (aruco_detector) StdoutLine: {'line': b'writing dependency_links to aruco_detector.egg-info/dependency_links.txt\n'}
+[1.819195] (aruco_detector) StdoutLine: {'line': b'writing entry points to aruco_detector.egg-info/entry_points.txt\n'}
+[1.819305] (aruco_detector) StdoutLine: {'line': b'writing requirements to aruco_detector.egg-info/requires.txt\n'}
+[1.819405] (aruco_detector) StdoutLine: {'line': b'writing top-level names to aruco_detector.egg-info/top_level.txt\n'}
+[1.819500] (aruco_detector) StdoutLine: {'line': b"writing manifest file 'aruco_detector.egg-info/SOURCES.txt'\n"}
+[1.820320] (aruco_detector) StdoutLine: {'line': b"reading manifest file 'aruco_detector.egg-info/SOURCES.txt'\n"}
+[1.821131] (aruco_detector) StdoutLine: {'line': b"writing manifest file 'aruco_detector.egg-info/SOURCES.txt'\n"}
+[1.838425] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.864993] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.871463] (docking_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.871900] (docking_controller) StdoutLine: {'line': b'creating docking_controller.egg-info\n'}
+[1.872147] (docking_controller) StdoutLine: {'line': b'writing docking_controller.egg-info/PKG-INFO\n'}
+[1.872706] (docking_controller) StdoutLine: {'line': b'writing dependency_links to docking_controller.egg-info/dependency_links.txt\n'}
+[1.873132] (docking_controller) StdoutLine: {'line': b'writing entry points to docking_controller.egg-info/entry_points.txt\n'}
+[1.873354] (docking_controller) StdoutLine: {'line': b'writing requirements to docking_controller.egg-info/requires.txt\n'}
+[1.873561] (docking_controller) StdoutLine: {'line': b'writing top-level names to docking_controller.egg-info/top_level.txt\n'}
+[1.873844] (docking_controller) StdoutLine: {'line': b"writing manifest file 'docking_controller.egg-info/SOURCES.txt'\n"}
+[1.875207] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.877520] (docking_controller) StdoutLine: {'line': b"reading manifest file 'docking_controller.egg-info/SOURCES.txt'\n"}
+[1.878488] (docking_controller) StdoutLine: {'line': b"writing manifest file 'docking_controller.egg-info/SOURCES.txt'\n"}
+[1.883520] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.883767] (aruco_detector) StdoutLine: {'line': b'running build_ext\n'}
+[1.884036] (aruco_detector) StdoutLine: {'line': b'Creating /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/python3.10/site-packages/aruco-detector.egg-link (link to .)\n'}
+[1.885095] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.885355] (aruco_detector) StdoutLine: {'line': b'Installing aruco_node script to /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/aruco_detector\n'}
+[1.885526] (aruco_detector) StdoutLine: {'line': b'\n'}
+[1.885614] (aruco_detector) StdoutLine: {'line': b'Installed /home/tejaswi/autonomous_docking_ros2/build/aruco_detector\n'}
+[1.885687] (aruco_detector) StdoutLine: {'line': b'running symlink_data\n'}
+[1.885869] (turtlebot3_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.885971] (aruco_detector) StdoutLine: {'line': b'creating /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/share/ament_index\n'}
+[1.886066] (aruco_detector) StdoutLine: {'line': b'creating /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/share/ament_index/resource_index\n'}
+[1.886163] (aruco_detector) StdoutLine: {'line': b'creating /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/share/ament_index/resource_index/packages\n'}
+[1.886277] (aruco_detector) StdoutLine: {'line': b'symbolically linking /home/tejaswi/autonomous_docking_ros2/build/aruco_detector/resource/aruco_detector -> /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/share/ament_index/resource_index/packages\n'}
+[1.886358] (aruco_detector) StdoutLine: {'line': b'symbolically linking /home/tejaswi/autonomous_docking_ros2/build/aruco_detector/package.xml -> /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/share/aruco_detector\n'}
+[1.892808] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.904990] (-) TimerEvent: {}
+[1.912976] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.937610] (aruco_detector) CommandEnded: {'returncode': 0}
+[1.955814] (aruco_detector) JobEnded: {'identifier': 'aruco_detector', 'rc': 0}
+[1.957445] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.973743] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.981217] (docking_controller) StdoutLine: {'line': b'running build_ext\n'}
+[1.981698] (docking_controller) StdoutLine: {'line': b'Creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages/docking-controller.egg-link (link to .)\n'}
+[1.983464] (docking_controller) StdoutLine: {'line': b'Installing controller_node script to /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/docking_controller\n'}
+[1.983858] (docking_controller) StdoutLine: {'line': b'\n'}
+[1.983928] (docking_controller) StdoutLine: {'line': b'Installed /home/tejaswi/autonomous_docking_ros2/build/docking_controller\n'}
+[1.984024] (docking_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[1.984116] (docking_controller) StdoutLine: {'line': b'creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index\n'}
+[1.984207] (docking_controller) StdoutLine: {'line': b'creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index/resource_index\n'}
+[1.984314] (docking_controller) StdoutLine: {'line': b'creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index/resource_index/packages\n'}
+[1.984420] (docking_controller) StdoutLine: {'line': b'symbolically linking /home/tejaswi/autonomous_docking_ros2/build/docking_controller/resource/docking_controller -> /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index/resource_index/packages\n'}
+[1.984577] (docking_controller) StdoutLine: {'line': b'symbolically linking /home/tejaswi/autonomous_docking_ros2/build/docking_controller/package.xml -> /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/docking_controller\n'}
+[1.987989] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.001868] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.002086] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.005095] (-) TimerEvent: {}
+[2.011185] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.011845] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.019603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.019927] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.029611] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.029864] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.038134] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.038538] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.045842] (docking_controller) CommandEnded: {'returncode': 0}
+[2.048476] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.055262] (docking_controller) JobEnded: {'identifier': 'docking_controller', 'rc': 0}
+[2.105259] (-) TimerEvent: {}
+[2.205699] (-) TimerEvent: {}
+[2.206056] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.216887] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.217526] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.239728] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.255375] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.261683] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.278005] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.305953] (-) TimerEvent: {}
+[2.321667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.328938] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.345786] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.387710] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.391593] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.392069] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.406036] (-) TimerEvent: {}
+[2.421435] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.428283] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.445928] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.486014] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.495780] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.496598] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.496828] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.498211] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.499720] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.506122] (-) TimerEvent: {}
+[2.514333] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.514833] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.517352] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.518088] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.518244] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.521612] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.521966] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.606322] (-) TimerEvent: {}
+[2.625471] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.637008] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.654834] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.694541] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.701600] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.706446] (-) TimerEvent: {}
+[2.715881] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.752496] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.753074] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.753749] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.754157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.761756] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[2.770477] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.806183] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.806816] (-) TimerEvent: {}
+[2.813677] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.821535] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.838323] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.859709] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.898053] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.907050] (-) TimerEvent: {}
+[2.915875] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.960906] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.964543] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.986422] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.997305] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.007153] (-) TimerEvent: {}
+[3.035607] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.058476] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.107287] (-) TimerEvent: {}
+[3.138492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.186114] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.188575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo\n'}
+[3.202722] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[3.203496] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[3.204423] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/tejaswi/crazysim2/crazyflie-simulation/simulator_files/gazebo/'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejaswi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces/lib:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejaswi'), ('OLDPWD', '/home/tejaswi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1533'), ('SYSTEMD_EXEC_PID', '1827'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9845'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejaswi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejaswi'), ('JOURNAL_STREAM', '8:23626'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejaswi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tejaswi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejaswi-inspiron:@/tmp/.ICE-unix/1783,unix/tejaswi-inspiron:/tmp/.ICE-unix/1783'), ('INVOCATION_ID', 'dcf4ee8a80684849b87df6c393af7a39'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5Z9872'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie_py:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:499e7f72-8d42-4dc3-8365-9f0d43eb9ede'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejaswi/autonomous_docking_ros2/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejaswi/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazylidar/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/tejaswi/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/tejaswi/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/tejaswi/crazysim/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejaswi/ros2_ws/install/zed_interfaces:/home/tejaswi/ros2_ws/install/crazyflie_sim:/home/tejaswi/ros2_ws/install/crazyflie_examples:/home/tejaswi/ros2_ws/install/crazyflie:/home/tejaswi/ros2_ws/install/crazyflie_interfaces:/home/tejaswi/ros2_ws/install/crazylidar:/home/tejaswi/ros2_ws/install/crazyflie_py:/opt/ros/humble')]), 'shell': False}
+[3.207624] (-) TimerEvent: {}
+[3.266770] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o\x1b[0m\n'}
+[3.267030] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o\x1b[0m\n'}
+[3.267135] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[3.267232] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o\x1b[0m\n'}
+[3.269061] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/traffic_bar_plugin.dir/src/traffic_bar_plugin.cpp.o\x1b[0m\n'}
+[3.269377] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o\x1b[0m\n'}
+[3.307934] (-) TimerEvent: {}
+[3.408727] (-) TimerEvent: {}
+[3.509191] (-) TimerEvent: {}
+[3.609572] (-) TimerEvent: {}
+[3.709966] (-) TimerEvent: {}
+[3.810430] (-) TimerEvent: {}
+[3.910987] (-) TimerEvent: {}
+[4.011472] (-) TimerEvent: {}
+[4.112020] (-) TimerEvent: {}
+[4.212508] (-) TimerEvent: {}
+[4.312925] (-) TimerEvent: {}
+[4.413489] (-) TimerEvent: {}
+[4.513897] (-) TimerEvent: {}
+[4.614338] (-) TimerEvent: {}
+[4.714938] (-) TimerEvent: {}
+[4.815505] (-) TimerEvent: {}
+[4.916034] (-) TimerEvent: {}
+[5.016577] (-) TimerEvent: {}
+[5.117103] (-) TimerEvent: {}
+[5.217591] (-) TimerEvent: {}
+[5.318075] (-) TimerEvent: {}
+[5.418536] (-) TimerEvent: {}
+[5.519028] (-) TimerEvent: {}
+[5.619539] (-) TimerEvent: {}
+[5.720004] (-) TimerEvent: {}
+[5.820465] (-) TimerEvent: {}
+[5.920973] (-) TimerEvent: {}
+[6.021544] (-) TimerEvent: {}
+[6.122115] (-) TimerEvent: {}
+[6.222772] (-) TimerEvent: {}
+[6.323319] (-) TimerEvent: {}
+[6.423817] (-) TimerEvent: {}
+[6.524382] (-) TimerEvent: {}
+[6.625049] (-) TimerEvent: {}
+[6.725879] (-) TimerEvent: {}
+[6.826632] (-) TimerEvent: {}
+[6.927161] (-) TimerEvent: {}
+[7.029381] (-) TimerEvent: {}
+[7.129895] (-) TimerEvent: {}
+[7.230373] (-) TimerEvent: {}
+[7.330856] (-) TimerEvent: {}
+[7.431371] (-) TimerEvent: {}
+[7.531789] (-) TimerEvent: {}
+[7.632279] (-) TimerEvent: {}
+[7.732733] (-) TimerEvent: {}
+[7.833155] (-) TimerEvent: {}
+[7.933601] (-) TimerEvent: {}
+[8.034024] (-) TimerEvent: {}
+[8.134535] (-) TimerEvent: {}
+[8.235072] (-) TimerEvent: {}
+[8.335537] (-) TimerEvent: {}
+[8.435945] (-) TimerEvent: {}
+[8.536383] (-) TimerEvent: {}
+[8.636986] (-) TimerEvent: {}
+[8.737420] (-) TimerEvent: {}
+[8.838386] (-) TimerEvent: {}
+[8.938826] (-) TimerEvent: {}
+[9.039268] (-) TimerEvent: {}
+[9.139802] (-) TimerEvent: {}
+[9.240266] (-) TimerEvent: {}
+[9.340739] (-) TimerEvent: {}
+[9.441185] (-) TimerEvent: {}
+[9.541755] (-) TimerEvent: {}
+[9.642331] (-) TimerEvent: {}
+[9.742817] (-) TimerEvent: {}
+[9.844991] (-) TimerEvent: {}
+[9.945588] (-) TimerEvent: {}
+[10.046290] (-) TimerEvent: {}
+[10.146881] (-) TimerEvent: {}
+[10.247355] (-) TimerEvent: {}
+[10.347796] (-) TimerEvent: {}
+[10.448301] (-) TimerEvent: {}
+[10.548999] (-) TimerEvent: {}
+[10.650381] (-) TimerEvent: {}
+[10.750867] (-) TimerEvent: {}
+[10.851329] (-) TimerEvent: {}
+[10.951813] (-) TimerEvent: {}
+[11.052361] (-) TimerEvent: {}
+[11.152907] (-) TimerEvent: {}
+[11.253363] (-) TimerEvent: {}
+[11.353803] (-) TimerEvent: {}
+[11.454215] (-) TimerEvent: {}
+[11.554761] (-) TimerEvent: {}
+[11.655198] (-) TimerEvent: {}
+[11.755683] (-) TimerEvent: {}
+[11.856130] (-) TimerEvent: {}
+[11.956561] (-) TimerEvent: {}
+[12.056966] (-) TimerEvent: {}
+[12.157369] (-) TimerEvent: {}
+[12.257796] (-) TimerEvent: {}
+[12.358224] (-) TimerEvent: {}
+[12.458664] (-) TimerEvent: {}
+[12.559078] (-) TimerEvent: {}
+[12.659501] (-) TimerEvent: {}
+[12.760339] (-) TimerEvent: {}
+[12.860766] (-) TimerEvent: {}
+[12.961146] (-) TimerEvent: {}
+[13.061624] (-) TimerEvent: {}
+[13.162091] (-) TimerEvent: {}
+[13.263619] (-) TimerEvent: {}
+[13.364072] (-) TimerEvent: {}
+[13.464475] (-) TimerEvent: {}
+[13.564861] (-) TimerEvent: {}
+[13.665242] (-) TimerEvent: {}
+[13.769378] (-) TimerEvent: {}
+[13.869881] (-) TimerEvent: {}
+[13.970366] (-) TimerEvent: {}
+[14.070850] (-) TimerEvent: {}
+[14.183323] (-) TimerEvent: {}
+[14.296403] (-) TimerEvent: {}
+[14.409520] (-) TimerEvent: {}
+[14.524473] (-) TimerEvent: {}
+[14.720024] (-) TimerEvent: {}
+[15.201144] (-) TimerEvent: {}
+[16.192351] (-) TimerEvent: {}
+[17.361307] (-) TimerEvent: {}
+[18.880538] (-) TimerEvent: {}
+[20.498661] (-) TimerEvent: {}
+[22.033492] (-) TimerEvent: {}
+[24.215421] (-) TimerEvent: {}
+[26.230718] (-) TimerEvent: {}
+[28.134524] (-) TimerEvent: {}
+[30.193608] (-) TimerEvent: {}
+[32.857208] (-) TimerEvent: {}

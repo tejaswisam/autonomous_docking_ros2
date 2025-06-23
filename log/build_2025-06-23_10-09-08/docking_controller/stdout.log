@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating docking_controller.egg-info
+writing docking_controller.egg-info/PKG-INFO
+writing dependency_links to docking_controller.egg-info/dependency_links.txt
+writing entry points to docking_controller.egg-info/entry_points.txt
+writing requirements to docking_controller.egg-info/requires.txt
+writing top-level names to docking_controller.egg-info/top_level.txt
+writing manifest file 'docking_controller.egg-info/SOURCES.txt'
+reading manifest file 'docking_controller.egg-info/SOURCES.txt'
+writing manifest file 'docking_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages/docking-controller.egg-link (link to .)
+Installing controller_node script to /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/docking_controller
+
+Installed /home/tejaswi/autonomous_docking_ros2/build/docking_controller
+running symlink_data
+creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index
+creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index/resource_index
+creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index/resource_index/packages
+symbolically linking /home/tejaswi/autonomous_docking_ros2/build/docking_controller/resource/docking_controller -> /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/ament_index/resource_index/packages
+symbolically linking /home/tejaswi/autonomous_docking_ros2/build/docking_controller/package.xml -> /home/tejaswi/autonomous_docking_ros2/install/docking_controller/share/docking_controller
