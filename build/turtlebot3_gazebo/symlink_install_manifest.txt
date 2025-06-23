@@ -125,6 +125,7 @@
 /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
 /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
 /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+/home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/config.rviz
 /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
 /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
 /home/tejaswi/autonomous_docking_ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf

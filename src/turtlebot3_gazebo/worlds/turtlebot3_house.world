@@ -57,7 +57,7 @@
 
     <include>
       <uri>model://aruco_box_id_20</uri>
-      <pose>2.884 5.25 0.1 0 0 3.14159</pose>
+      <pose>-2.3 5.25 0.1 0 0 3.14159</pose>
     </include>
 
   </world>

@@ -1,0 +1,19 @@
+[1.119s] Invoking command in '/home/tejaswi/autonomous_docking_ros2/build/docking_controller': PYTHONPATH=/home/tejaswi/autonomous_docking_ros2/build/docking_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tejaswi/autonomous_docking_ros2/build/docking_controller/build --no-deps symlink_data
+[1.396s] running develop
+[1.396s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.396s]   warnings.warn(
+[1.591s] running egg_info
+[1.591s] writing docking_controller.egg-info/PKG-INFO
+[1.591s] writing dependency_links to docking_controller.egg-info/dependency_links.txt
+[1.591s] writing entry points to docking_controller.egg-info/entry_points.txt
+[1.591s] writing requirements to docking_controller.egg-info/requires.txt
+[1.591s] writing top-level names to docking_controller.egg-info/top_level.txt
+[1.593s] reading manifest file 'docking_controller.egg-info/SOURCES.txt'
+[1.593s] writing manifest file 'docking_controller.egg-info/SOURCES.txt'
+[1.633s] running build_ext
+[1.633s] Creating /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages/docking-controller.egg-link (link to .)
+[1.633s] Installing controller_node script to /home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/docking_controller
+[1.634s] 
+[1.634s] Installed /home/tejaswi/autonomous_docking_ros2/build/docking_controller
+[1.634s] running symlink_data
+[1.695s] Invoked command in '/home/tejaswi/autonomous_docking_ros2/build/docking_controller' returned '0': PYTHONPATH=/home/tejaswi/autonomous_docking_ros2/build/docking_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/docking_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tejaswi/autonomous_docking_ros2/build/docking_controller/build --no-deps symlink_data

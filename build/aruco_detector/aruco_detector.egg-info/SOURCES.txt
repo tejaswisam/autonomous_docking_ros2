@@ -10,4 +10,5 @@ aruco_detector.egg-info/entry_points.txt
 aruco_detector.egg-info/requires.txt
 aruco_detector.egg-info/top_level.txt
 aruco_detector.egg-info/zip-safe
+msg/MarkerPose.msg
 resource/aruco_detector

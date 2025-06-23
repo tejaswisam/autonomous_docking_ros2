@@ -1,3 +1,4 @@
 [console_scripts]
 controller_node = docking_controller.controller_node:main
+pose_estimator_node = docking_controller.pose_estimator:main
 

@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 docking_controller/__init__.py
 docking_controller/controller_node.py
+docking_controller/pose_estimator.py
 docking_controller.egg-info/PKG-INFO
 docking_controller.egg-info/SOURCES.txt
 docking_controller.egg-info/dependency_links.txt
@@ -10,4 +11,5 @@ docking_controller.egg-info/entry_points.txt
 docking_controller.egg-info/requires.txt
 docking_controller.egg-info/top_level.txt
 docking_controller.egg-info/zip-safe
+msg/MarkerPose.msg
 resource/docking_controller

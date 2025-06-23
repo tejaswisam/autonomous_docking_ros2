@@ -1,0 +1,1 @@
+/home/tejaswi/autonomous_docking_ros2/src/aruco_detector/msg/MarkerPose.msg

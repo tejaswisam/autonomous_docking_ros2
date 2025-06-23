@@ -1,0 +1,21 @@
+[0.748s] Invoking command in '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector': PYTHONPATH=/home/tejaswi/autonomous_docking_ros2/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tejaswi/autonomous_docking_ros2/build/aruco_detector/build --no-deps symlink_data
+[1.029s] running develop
+[1.029s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.029s]   warnings.warn(
+[1.200s] running egg_info
+[1.200s] writing aruco_detector.egg-info/PKG-INFO
+[1.200s] writing dependency_links to aruco_detector.egg-info/dependency_links.txt
+[1.200s] writing entry points to aruco_detector.egg-info/entry_points.txt
+[1.200s] writing requirements to aruco_detector.egg-info/requires.txt
+[1.201s] writing top-level names to aruco_detector.egg-info/top_level.txt
+[1.202s] reading manifest file 'aruco_detector.egg-info/SOURCES.txt'
+[1.203s] writing manifest file 'aruco_detector.egg-info/SOURCES.txt'
+[1.240s] running build_ext
+[1.240s] Creating /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/python3.10/site-packages/aruco-detector.egg-link (link to .)
+[1.241s] Installing aruco_node script to /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/aruco_detector
+[1.241s] 
+[1.241s] Installed /home/tejaswi/autonomous_docking_ros2/build/aruco_detector
+[1.241s] running symlink_data
+[1.242s] creating /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/share/aruco_detector/msg
+[1.242s] symbolically linking /home/tejaswi/autonomous_docking_ros2/build/aruco_detector/msg/MarkerPose.msg -> /home/tejaswi/autonomous_docking_ros2/install/aruco_detector/share/aruco_detector/msg
+[1.274s] Invoked command in '/home/tejaswi/autonomous_docking_ros2/build/aruco_detector' returned '0': PYTHONPATH=/home/tejaswi/autonomous_docking_ros2/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswi/autonomous_docking_ros2/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tejaswi/autonomous_docking_ros2/build/aruco_detector/build --no-deps symlink_data

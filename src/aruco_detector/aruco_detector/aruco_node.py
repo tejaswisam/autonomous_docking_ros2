@@ -2,23 +2,25 @@ import rclpy
 from rclpy.node import Node
 import cv2
 from cv_bridge import CvBridge
+import numpy as np
+from scipy.spatial.transform import Rotation as R
+import tf_transformations
 from sensor_msgs.msg import Image, CameraInfo
 from geometry_msgs.msg import PoseStamped
-import numpy as np
-import math
+from tf2_ros import Buffer, TransformListener, TransformException
+from tf2_geometry_msgs import do_transform_pose_stamped
 
 class ArucoDetector(Node):
     def __init__(self):
         super().__init__('aruco_detector')
-        self.bridge = CvBridge()
-        self.marker_length = 0.05  # Marker size in meters
 
-        # ArUco dictionary and detector
+        self.bridge = CvBridge()
+        self.marker_length = 0.18  # Marker size in meters
+
         self.aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
         self.detector_params = cv2.aruco.DetectorParameters()
         self.aruco_detector = cv2.aruco.ArucoDetector(self.aruco_dict, self.detector_params)
 
-        # Camera intrinsics (populated from /camera_info)
         self.camera_matrix = None
         self.dist_coeffs = None
         self.camera_info_received = False
@@ -27,6 +29,10 @@ class ArucoDetector(Node):
         self.image_sub = self.create_subscription(Image, '/camera/image_raw', self.image_callback, 10)
         self.cam_info_sub = self.create_subscription(CameraInfo, '/camera/camera_info', self.camera_info_callback, 10)
         self.pose_pub = self.create_publisher(PoseStamped, '/aruco_marker_pose', 10)
+
+        # TF2
+        self.tf_buffer = Buffer()
+        self.tf_listener = TransformListener(self.tf_buffer, self)
 
         self.get_logger().info("ArucoDetector node initialized")
 
@@ -41,11 +47,9 @@ class ArucoDetector(Node):
         if not self.camera_info_received:
             return
 
-        # Convert image to OpenCV format
         frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-        # Detect markers
         corners, ids, _ = self.aruco_detector.detectMarkers(gray)
 
         if ids is not None:
@@ -55,74 +59,57 @@ class ArucoDetector(Node):
                     corners[i], self.marker_length, self.camera_matrix, self.dist_coeffs
                 )
 
-                # Publish pose
-                pose = PoseStamped()
-                pose.header.stamp = msg.header.stamp
-                pose.header.frame_id = "camera_link"
-                pose.pose.position.x = float(tvec[0][0][0])
-                pose.pose.position.y = float(tvec[0][0][1])
-                pose.pose.position.z = float(tvec[0][0][2])
+                pose_cam = PoseStamped()
+                pose_cam.header.stamp = msg.header.stamp
+                pose_cam.header.frame_id = 'camera_link'
+                pose_cam.pose.position.x = float(tvec[0][0][0])
+                pose_cam.pose.position.y = float(tvec[0][0][1])
+                pose_cam.pose.position.z = float(tvec[0][0][2])
 
-                rotM, _ = cv2.Rodrigues(rvec[0])
-                q = self.rotation_matrix_to_quaternion(rotM)
-                pose.pose.orientation.x = q[0]
-                pose.pose.orientation.y = q[1]
-                pose.pose.orientation.z = q[2]
-                pose.pose.orientation.w = q[3]
+                rot_matrix, _ = cv2.Rodrigues(rvec[0])
+                quat = R.from_matrix(rot_matrix).as_quat()  # [x, y, z, w]
+                pose_cam.pose.orientation.x = quat[0]
+                pose_cam.pose.orientation.y = quat[1]
+                pose_cam.pose.orientation.z = quat[2]
+                pose_cam.pose.orientation.w = quat[3]
 
-                self.pose_pub.publish(pose)
+                # try:
+                #     transform = self.tf_buffer.lookup_transform(
+                #         'map',  # target
+                #         'camera_link',  # source
+                #         rclpy.time.Time()
+                #     )
 
-                # Draw on frame
+                # pose_map_stamped = do_transform_pose_stamped(pose_cam, transform)
+                self.pose_pub.publish(pose_cam)
+
+                self.get_logger().info(
+                f" Marker {ids[i]} in map → x: {pose_cam.pose.position.x:.2f}, y: {pose_cam.pose.position.y:.2f}"
+                )
+
+                # except TransformException as e:
+                #     self.get_logger().warn(f"TF transform failed: {str(e)}")
+
                 cv2.aruco.drawDetectedMarkers(frame, [corners[i]])
                 cv2.drawFrameAxes(frame, self.camera_matrix, self.dist_coeffs, rvec[0], tvec[0], 0.03)
 
-                text = f"ID: {ids[i]} x:{pose.pose.position.x:.2f} y:{pose.pose.position.y:.2f} z:{pose.pose.position.z:.2f}"
-                center_x = int((corners[i][0][0][0] + corners[i][0][2][0]) / 2.0)
-                center_y = int((corners[i][0][0][1] + corners[i][0][2][1]) / 2.0)
-                cv2.putText(frame, text, (center_x - 60, center_y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                cx = int((corners[i][0][0][0] + corners[i][0][2][0]) / 2.0)
+                cy = int((corners[i][0][0][1] + corners[i][0][2][1]) / 2.0)
+                label = f"ID:{ids[i]} z:{pose_cam.pose.position.z:.2f}m"
+                cv2.putText(frame, label, (cx - 60, cy - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
-        # Show the image with annotations
-        cv2.namedWindow("output", cv2.WINDOW_NORMAL)
+        cv2.namedWindow("Aruco Output", cv2.WINDOW_NORMAL)
         imS = cv2.resize(frame, (960, 540))
-        cv2.imshow("output", imS)
+        cv2.imshow("Aruco Output", imS)
         cv2.waitKey(1)
-
-    def rotation_matrix_to_quaternion(self, R):
-        """Convert rotation matrix to quaternion"""
-        q = np.empty(4)
-        trace = np.trace(R)
-        if trace > 0:
-            s = 0.5 / math.sqrt(trace + 1.0)
-            q[3] = 0.25 / s
-            q[0] = (R[2, 1] - R[1, 2]) * s
-            q[1] = (R[0, 2] - R[2, 0]) * s
-            q[2] = (R[1, 0] - R[0, 1]) * s
-        else:
-            i = np.argmax(np.diagonal(R))
-            if i == 0:
-                s = 2.0 * math.sqrt(1.0 + R[0, 0] - R[1, 1] - R[2, 2])
-                q[3] = (R[2, 1] - R[1, 2]) / s
-                q[0] = 0.25 * s
-                q[1] = (R[0, 1] + R[1, 0]) / s
-                q[2] = (R[0, 2] + R[2, 0]) / s
-            elif i == 1:
-                s = 2.0 * math.sqrt(1.0 + R[1, 1] - R[0, 0] - R[2, 2])
-                q[3] = (R[0, 2] - R[2, 0]) / s
-                q[0] = (R[0, 1] + R[1, 0]) / s
-                q[1] = 0.25 * s
-                q[2] = (R[1, 2] + R[2, 1]) / s
-            else:
-                s = 2.0 * math.sqrt(1.0 + R[2, 2] - R[0, 0] - R[1, 1])
-                q[3] = (R[1, 0] - R[0, 1]) / s
-                q[0] = (R[0, 2] + R[2, 0]) / s
-                q[1] = (R[1, 2] + R[2, 1]) / s
-                q[2] = 0.25 * s
-        return q[:3].tolist() + [q[3]]
 
 def main(args=None):
     rclpy.init(args=args)
     node = ArucoDetector()
-    rclpy.spin(node)
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
     node.destroy_node()
     rclpy.shutdown()
     cv2.destroyAllWindows()
