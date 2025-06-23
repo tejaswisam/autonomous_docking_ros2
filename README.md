@@ -81,7 +81,7 @@ ros2 run aruco_detector aruco_node
 
 ---
 
-### 4. 🧭 Bring up Navigation2
+### 4. Bring up Navigation2
 
 ```bash
 ros2 launch nav2_bringup bringup_launch.py use_sim_time:=true map:=src/turtlebot3_gazebo/maps/my_house.yaml
