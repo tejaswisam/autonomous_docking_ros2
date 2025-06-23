@@ -117,7 +117,7 @@ class ControllerNode(Node):
         aligned_z = abs(err_z) < z_threshold
 
         if aligned_x and aligned_z and self.front_distance <= final_lidar_stop:
-            self.get_logger().info("✅ Docked successfully (pose + LIDAR).")
+            self.get_logger().info("Docked successfully (pose + LIDAR).")
             self.cmd_pub.publish(Twist())
             self.state = 'IDLE'
             return
@@ -135,7 +135,7 @@ class ControllerNode(Node):
             twist.linear.x = 0.0
 
         if self.front_distance < 0.1:
-            self.get_logger().warn("🛑 Obstacle too close. Aborting.")
+            self.get_logger().warn("Obstacle too close. Aborting.")
             self.cmd_pub.publish(Twist())
             self.state = 'IDLE'
             return
@@ -151,7 +151,7 @@ class ControllerNode(Node):
         self.get_logger().info(f"[ARUCO DETECTED] ID: {msg.data}")
         if self.desired_marker_id is None:
             self.desired_marker_id = msg.data
-            self.get_logger().info(f"🔒 Latched to ArUco ID: {msg.data}")
+            self.get_logger().info(f" Latched to ArUco ID: {msg.data}")
         if msg.data == self.desired_marker_id:
             self.marker_detected = True
 
